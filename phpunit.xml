@@ -12,5 +12,8 @@
         <testsuite name="Task-2">
             <directory suffix="Test.php">./2-task/tests</directory>
         </testsuite>
+        <testsuite name="Task-3">
+            <directory suffix="Test.php">./3-task/Tests</directory>
+        </testsuite>
     </testsuites>
 </phpunit>

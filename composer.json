@@ -9,14 +9,19 @@
         }
     ],
     "require": {
-        "php": "^7.4"
+        "php": "^7.4",
+        "ext-dom": "*",
+        "guzzlehttp/guzzle": "^7.2",
+        "symfony/http-foundation": "^5.2",
+        "masterminds/html5": "^2.7"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.4"
     },
     "autoload": {
         "psr-4": {
-            "Task2\\": "2-task/"
+            "Task2\\": "2-task/",
+            "Task3\\": "3-task/"
         },
         "files": ["2-task/helpers.php"]
     }
